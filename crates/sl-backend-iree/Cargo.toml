@@ -1,0 +1,12 @@
+[package]
+name = "sl-backend-iree"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+sl-backend = { path = "../sl-backend" }
+sl-ir = { path = "../sl-ir" }
+which = "4.4"
+reqwest = { version = "0.11", features = ["blocking"] }
+zip = "0.6"
+dirs = "6.0.0"

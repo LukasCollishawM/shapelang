@@ -1,0 +1,8 @@
+[package]
+name = "sl-ir"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+sl-types = { path = "../sl-types" }
+sl-parse = { path = "../sl-parse" }

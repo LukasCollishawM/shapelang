@@ -1,0 +1,13 @@
+[package]
+name = "sl-cli"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.0", features = ["derive"] }
+sl-parse = { path = "../sl-parse" }
+sl-types = { path = "../sl-types" }
+sl-ir = { path = "../sl-ir" }
+sl-backend = { path = "../sl-backend" }
+sl-backend-cpu = { path = "../sl-backend-cpu" }
+sl-backend-iree = { path = "../sl-backend-iree" }

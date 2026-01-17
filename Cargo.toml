@@ -1,0 +1,12 @@
+[workspace]
+members = [
+    "crates/sl-parse",
+    "crates/sl-types",
+    "crates/sl-ir",
+    "crates/sl-autodiff",
+    "crates/sl-backend",
+    "crates/sl-backend-iree", 
+    "crates/sl-backend-cpu",
+    "crates/sl-cli",
+]
+resolver = "2"

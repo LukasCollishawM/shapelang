@@ -1,0 +1,21 @@
+# Build artifacts
+/target
+/target/
+**/*.rs.bk
+Cargo.lock
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+
+# Editor artifacts
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Shapelang specific
+*.mlir
+*.vmfb
+.cache/
+shapelang_cache/

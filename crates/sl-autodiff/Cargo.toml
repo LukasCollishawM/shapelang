@@ -1,0 +1,8 @@
+[package]
+name = "sl-autodiff"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+sl-ir = { path = "../sl-ir" }
+sl-types = { path = "../sl-types" }

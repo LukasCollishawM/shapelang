@@ -1,0 +1,10 @@
+[package]
+name = "sl-backend-cpu"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+sl-backend = { path = "../sl-backend" }
+sl-ir = { path = "../sl-ir" }
+sl-types = { path = "../sl-types" }
+# rand = "0.9.2" # Removed to fix linker issues
